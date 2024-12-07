@@ -15,7 +15,7 @@ import requests
 import base64
 import uuid
 import secrets
-
+busylist = []
 def Braintree_generate_uuid():
     return str(uuid.uuid4())
 def chkkk(cx):
@@ -173,12 +173,15 @@ def subscribe(message):
 @bot.message_handler(content_types=["document"])
 def main(message):
     UsersSubb = open('UserSub.txt','r').read()
+    
+    if message.from_user.id in busylist: return
     if str(message.from_user.id) in UsersSubb:
         dd = 0
         live = 0
         ch = 0
         ccn = 0
         mss = ''
+        busylist.append(message.from_user.id)
         ko = (bot.reply_to(message, "'*- Braintree Checker ▶️*").message_id)
         ee = bot.download_file(bot.get_file(message.document.file_id).file_path)
         with open("combo.txt", "wb") as w:w.write(ee)
@@ -272,5 +275,6 @@ def main(message):
                         dd += 1
                     time.sleep(35)
                   except: continue 
-    
+                busylist.remove(message.from_user.id)
+                bot.reply_to(message, "'*- Finish 💯*")
 bot.infinity_polling()
