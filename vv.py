@@ -30,7 +30,7 @@ def chkkk(cx):
         'authority': 'payments.braintree-api.com',
         'accept': '*/*',
         'accept-language': 'ar-EG,ar;q=0.9,en-US;q=0.8,en;q=0.7',
-        'authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NiIsImtpZCI6IjIwMTgwNDI2MTYtcHJvZHVjdGlvbiIsImlzcyI6Imh0dHBzOi8vYXBpLmJyYWludHJlZWdhdGV3YXkuY29tIn0.eyJleHAiOjE3MzM2MjkzODIsImp0aSI6ImU2NjE0YzQ0LTBjYTItNDM3MS1hNTBjLWY4NjUwOTZmYWYwYyIsInN1YiI6InBiZ2dxNTZyNzR5NjVmZ3giLCJpc3MiOiJodHRwczovL2FwaS5icmFpbnRyZWVnYXRld2F5LmNvbSIsIm1lcmNoYW50Ijp7InB1YmxpY19pZCI6InBiZ2dxNTZyNzR5NjVmZ3giLCJ2ZXJpZnlfY2FyZF9ieV9kZWZhdWx0Ijp0cnVlfSwicmlnaHRzIjpbIm1hbmFnZV92YXVsdCJdLCJzY29wZSI6WyJCcmFpbnRyZWU6VmF1bHQiXSwib3B0aW9ucyI6e319.9RR4DCl0iddDrGfR6XYSqWgU6afL1z1ArFLEs3WGp_dvKE_pD3bCJx6lf53ZTYwFeVX2k78TXD-OaggVPBqffw',
+        'authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NiIsImtpZCI6IjIwMTgwNDI2MTYtcHJvZHVjdGlvbiIsImlzcyI6Imh0dHBzOi8vYXBpLmJyYWludHJlZWdhdGV3YXkuY29tIn0.eyJleHAiOjE3MzM3MjE0NjgsImp0aSI6IjkwOTdjMzA0LTE1YmMtNDI1OC1hMjVjLTUzNTI2ZmI1ZTQxNiIsInN1YiI6InBiZ2dxNTZyNzR5NjVmZ3giLCJpc3MiOiJodHRwczovL2FwaS5icmFpbnRyZWVnYXRld2F5LmNvbSIsIm1lcmNoYW50Ijp7InB1YmxpY19pZCI6InBiZ2dxNTZyNzR5NjVmZ3giLCJ2ZXJpZnlfY2FyZF9ieV9kZWZhdWx0Ijp0cnVlfSwicmlnaHRzIjpbIm1hbmFnZV92YXVsdCJdLCJzY29wZSI6WyJCcmFpbnRyZWU6VmF1bHQiXSwib3B0aW9ucyI6e319.LKyj4LnN0c9O2WigyNeVl4fsSDhvJA95a61VYos7r02mGMnq_GXG3-GeGBxNIrvRtB8WyMCGV5kgH1GhzSKhvg',
         'braintree-version': '2018-05-10',
         'content-type': 'application/json',
         'dnt': '1',
