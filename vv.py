@@ -31,7 +31,7 @@ def chkkk(cx):
         'accept': '*/*',
         'accept-language': 'ar-EG,ar;q=0.9,en-US;q=0.8,en;q=0.7',
 
-        'authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NiIsImtpZCI6IjIwMTgwNDI2MTYtcHJvZHVjdGlvbiIsImlzcyI6Imh0dHBzOi8vYXBpLmJyYWludHJlZWdhdGV3YXkuY29tIn0.eyJleHAiOjE3MzQwNDUyNTIsImp0aSI6IjNjMDJmNjVkLWI0YWMtNGY2OS1iZmYyLWNlYjZhYzhjZDA3ZCIsInN1YiI6InBiZ2dxNTZyNzR5NjVmZ3giLCJpc3MiOiJodHRwczovL2FwaS5icmFpbnRyZWVnYXRld2F5LmNvbSIsIm1lcmNoYW50Ijp7InB1YmxpY19pZCI6InBiZ2dxNTZyNzR5NjVmZ3giLCJ2ZXJpZnlfY2FyZF9ieV9kZWZhdWx0Ijp0cnVlfSwicmlnaHRzIjpbIm1hbmFnZV92YXVsdCJdLCJzY29wZSI6WyJCcmFpbnRyZWU6VmF1bHQiXSwib3B0aW9ucyI6e319.dc4moIKD26IdIAkA08XrXWmLRssJ_b2vtEjB83J8jDxTm6SRBRo1rNdm_nOgbV0LDO-w4Ya9X_IH63-uZZIh_A',
+        'authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NiIsImtpZCI6IjIwMTgwNDI2MTYtcHJvZHVjdGlvbiIsImlzcyI6Imh0dHBzOi8vYXBpLmJyYWludHJlZWdhdGV3YXkuY29tIn0.eyJleHAiOjE3MzQxNTU4OTUsImp0aSI6IjhkNmI0MzVhLWQyMDUtNDk3Yy05YjY2LTY2MWIwY2FiZjU1ZCIsInN1YiI6InBiZ2dxNTZyNzR5NjVmZ3giLCJpc3MiOiJodHRwczovL2FwaS5icmFpbnRyZWVnYXRld2F5LmNvbSIsIm1lcmNoYW50Ijp7InB1YmxpY19pZCI6InBiZ2dxNTZyNzR5NjVmZ3giLCJ2ZXJpZnlfY2FyZF9ieV9kZWZhdWx0Ijp0cnVlfSwicmlnaHRzIjpbIm1hbmFnZV92YXVsdCJdLCJzY29wZSI6WyJCcmFpbnRyZWU6VmF1bHQiXSwib3B0aW9ucyI6e319.e0jaTRg4oZBIZkAPul6EmBMyVlxjAVQ7j_J0jAtIQwCRGLvACI2tzAz34S3JaTf87HsmmM7iyuYD4lVEesHBdQ',
         'braintree-version': '2018-05-10',
         'content-type': 'application/json',
         'dnt': '1',
